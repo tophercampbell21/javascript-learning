@@ -1,0 +1,25 @@
+IF/ELSE STATEMENTS
+
+ - structure = if(condition) {
+  run this code
+ } else(if the first condition isn't met) {
+  run this code instead
+ }
+
+CONVERSION -- Manually converting data types
+COERCION --When JS implicitly changes the data types behind the scenes for us
+
+Javascript can only covert to 3 data types 
+  -  to a number (Number())
+  -  to a string  (String())
+  -  to a boolean (Boolean()) - very rarely used
+
+Can't convert to 'null' or 'undefined'
+
+The 5 FALSY values:
+  1. 0
+  2. ''
+  3. undefined 
+  4. null 
+  5. NaN
+  
