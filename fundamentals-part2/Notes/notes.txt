@@ -1,0 +1,7 @@
+STRICT MODE
+ - This statement has to be the very first statement in all of the JS pages if you want strict mode activated
+ - This makes the code more secure, it helps us avoid adding accidental bugs
+ - This will create visual errors instead of JS failing silently making it harder for us to catch bugs 
+ - Strict mode will make it impossible for us to do certain things that it knows will not work 
+
+*** I'm wondering if modern Javascipt automatically uses strict mode... 

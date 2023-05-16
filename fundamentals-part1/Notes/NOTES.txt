@@ -22,4 +22,37 @@ The 5 FALSY values:
   3. undefined 
   4. null 
   5. NaN
-  
+
+
+*----------------------------- JAVASCRIPT VERSIONS -----------------------------*
+
+1995 - First version came out by Brendan Eich - created in 10 days, named Mocha
+
+1996 - Changes to 'LiveScript' and then to 'Javascript'. Has nothing to do with Java 
+
+     - Microsoft launched Internet Explorer and copied Javascript but called it 'JScript'
+
+1997 - The standardized language = ECMAScript 1 (ES1). This was the first official standard for Javascript 
+
+2009 - ES5 (ECMAScript 5) is released with a bunch of cool new features
+
+2015 - ES6 / "ES2015" (ECMAScript 2015) was released: the biggest update for the language ever 
+
+ - There's a new release for JS or ECMAScript every year. Easier with smaller roll outs annually instead of a few BIG releases every handful of years. 
+ - It will increase like this every year so 2016 is ES2016, 2017 is ES2017, 2022 is ES2022, and so on 
+
+ - The cool thing about Javascipt is that it's backwards compatible. You can run ES2009 Javascript code in modern engines and it will work 
+    - This is cool because it won't break the web of sites and apps that were built on old code
+
+ - It's important to understand that Javascript is NOT FORWARD COMPATIBLE. 
+    - During development -- Always use the most modern version of Google Chrome
+    - During production -- Use Babel to transpile and polyfill your code (convert back to ES5 to ensure browser compatibility for all users)
+         - You never know what browser or browser version others are using, therefore you've got to make your Javascript code accessible to everyone 
+         - This is the easiest way to do that 
+         - ES5 is safe to be used for almost all productions
+         - ES6 - ES2020 (ES+) are the modern JS tools where something like Babel is needed for a small section of users. 
+         - Check ES6 compatibility table so you know what's updated and what isn't 
+         - You should just use a transpiler to polyfill your code since you'll always be coding in the most modern versions 
+
+
+
